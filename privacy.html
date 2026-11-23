@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="How VideoStudio accesses, uses, stores, and shares data, and how to revoke access or request deletion."><title>Privacy Policy | VideoStudio</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><a class="brand" href="index.html">VideoStudio</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="privacy.html" aria-current="page">Privacy policy</a><a href="terms.html">Terms of service</a></nav></header>
+<main id="main" class="policy">
+
+<p class="eyebrow">VideoStudio</p><h1>Privacy Policy</h1><p class="meta">Effective and last updated: 23 November 2026</p>
+<p>VideoStudio is a private video production and publishing application operated by <strong>Neil Sun</strong> (the operator). This policy covers the application and these public information pages. Contact: <a class="contact" href="mailto:pidgeot535@gmail.com">pidgeot535@gmail.com</a>.</p>
+<h2>1. Information the application handles</h2>
+<ul>
+<li><strong>Project information:</strong> topics, channel profiles, prompts, ideas, scripts, source links, photos, video and audio files you provide, transcripts, captions, editing plans, previews, exports, feedback, and approvals.</li>
+<li><strong>YouTube information:</strong> connected channel IDs and names; video IDs, titles, descriptions, publication dates, durations, public statistics, publishing status and visibility; and authorized analytics such as views, watch time, average view duration, likes, comment counts, and shares. Analytics are aggregate reports, not viewer identity records.</li>
+<li><strong>Connection and operational information:</strong> OAuth access and refresh tokens, configured service credentials, task and error records, upload receipts, AI usage records, and estimated provider spending. Telegram use also involves configured chat/user IDs and messages you send to the bot.</li>
+</ul>
+<p>Google authorization happens on Google's own pages. VideoStudio does not request or store your Google account password. The app does not request access to Gmail, Google Drive, or your Google contacts.</p>
+<h2>2. Google and YouTube permissions</h2>
+<p>VideoStudio uses <strong>YouTube API Services</strong>. The current connection requests the following OAuth scopes:</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Scope</th><th scope="col">Use in VideoStudio</th></tr></thead><tbody>
+<tr><td><code>youtube.upload</code></td><td>Upload videos you approve to your connected channel.</td></tr>
+<tr><td><code>youtube.readonly</code></td><td>Identify the authorized channel and read channel/video information.</td></tr>
+<tr><td><code>youtube.force-ssl</code></td><td>Apply approved upload visibility, scheduling, and status settings and check processing. Google's permission grant also permits broader video, caption, rating, and comment management; the current app does not offer automatic video deletion or comment moderation.</td></tr>
+<tr><td><code>yt-analytics.readonly</code></td><td>Read the connected channel's video performance reports.</td></tr>
+</tbody></table></div>
+<p>The full scope names begin with <code>https://www.googleapis.com/auth/</code>. Google's consent screen describes the access you grant. Public video research may also use a separately configured API key.</p>
+<h2>3. Why information is used</h2>
+<p>Information is used to operate the requested production workflow, identify the correct channel, prepare and review content, save local outputs, carry out approved uploads and publishing settings, retrieve reports, and propose improvements for that channel. Operational records help resume interrupted work, prevent duplicate uploads, enforce approvals, and troubleshoot problems.</p>
+<p>Google-derived information is used only for these disclosed features. It is not sold, used for advertising or credit decisions, or used by the operator to train a general-purpose AI model. VideoStudio follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements, when using or transferring Google API data.</p>
+<h2>4. Sharing and optional integrations</h2>
+<ul>
+<li><strong>Google/YouTube:</strong> authorization requests, approved video files and publishing metadata, and API requests are sent to Google. Google's handling is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+<li><strong>Anthropic/Claude, when enabled:</strong> relevant briefs, scripts, research including public YouTube metadata, selected images/transcripts, review context, and channel analytics supplied for a requested learning task can be sent for AI processing. Keep this feature disabled for Google-derived data unless the provider terms and account settings prevent its use for general-purpose model training. See <a href="https://www.anthropic.com/legal/privacy">Anthropic's Privacy Policy</a>.</li>
+<li><strong>ElevenLabs, when enabled:</strong> script text and voice settings are sent to generate narration. See <a href="https://elevenlabs.io/privacy-policy">ElevenLabs' Privacy Policy</a>.</li>
+<li><strong>Telegram, when enabled:</strong> bot commands, job status, titles, filming requests, review links, and approval messages are transmitted through Telegram. See <a href="https://telegram.org/privacy">Telegram's Privacy Policy</a>.</li>
+<li><strong>Website hosting:</strong> the selected website host receives normal web requests, including IP addresses and browser/request information, and may retain access or security logs under its own privacy policy. If hosted on GitHub Pages, see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</li>
+</ul>
+<p>These integrations are optional except Google for YouTube features. Relevant information is shared only for enabled, requested functionality. The operator may access information to provide requested support with permission, investigate security issues, or comply with law. No advertising networks or data brokers receive application data.</p>
+<h2>5. Storage, security, and cookies</h2>
+<p>Project files, credentials, the application database, and exports are stored on the operator-controlled computer. The local app does not operate a separate central storage service. Copies may also exist in backups or cloud-sync locations the operator configures and with enabled providers. The operator protects the computer and backups using appropriate access controls and device security. Local credential files are not separately encrypted by VideoStudio.</p>
+<p>The private dashboard uses an essential sign-in cookie. These static information pages add no analytics scripts, advertising trackers, forms, or application cookies. The hosting provider may process technical request information. Data sent to external services is subject to their retention and security practices.</p>
+<h2>6. Retention and deletion</h2>
+<p>Project media, scripts, and exports are retained while needed for the operator's work or until deleted. OAuth tokens are retained while the connection is needed and authorized. YouTube API data is subject to separate retention limits: cached public metadata and other API data requiring refresh are refreshed or deleted within 30 days. Authorized analytics/statistics may be kept longer only while needed, with authorization and relevant video availability checked at least every 30 days.</p>
+<p>The current private release requires the operator to perform these retention checks and deletions manually; it does not automatically expire every stored record. When access is revoked or deletion is requested, the operator stops the affected processing and deletes the associated locally stored tokens and user/API data as soon as possible, within seven calendar days, including copies under the operator's control. Provider-held copies are handled through the relevant provider.</p>
+<h2>7. Your choices and contact</h2>
+<p>You can decline Google authorization and use local features, disable optional integrations, pause jobs, and review content before publication. Revoke VideoStudio's access at <a href="https://security.google.com/settings/security/permissions">Google account security permissions</a>. Revocation prevents further authorized access but does not itself erase local copies or videos already uploaded to YouTube.</p>
+<p>For access, correction, privacy complaints, or deletion, email <a class="contact" href="mailto:pidgeot535@gmail.com">pidgeot535@gmail.com</a> and identify the channel or project concerned. Do not send passwords, tokens, or API keys. The operator may verify the requester's authority. Delete already uploaded videos separately in YouTube Studio if desired.</p>
+<h2>8. Changes</h2>
+<p>The operator will update this page when data practices change. Material changes to Google-data access or use will be disclosed and consent obtained before the changed processing begins.</p>
+</main>
+<footer><p>VideoStudio &middot; Neil Sun</p><p><a href="index.html">Home</a> &nbsp; <a href="terms.html">Terms of service</a></p></footer>
+</body></html>
